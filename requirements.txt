@@ -1,0 +1,10 @@
+flask
+numpy
+pandas
+shap
+scikit-learn
+statsmodels
+torch
+torchvision
+scipy
+gunicorn
