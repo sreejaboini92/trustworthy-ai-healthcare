@@ -98,6 +98,8 @@ def get_bias_metrics():
     }
     return jsonify(bias_data)
 
+import os
+
 if __name__ == '__main__':
-    # host='0.0.0.0' makes the server accessible on the local network
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
