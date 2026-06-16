@@ -32,3 +32,12 @@ Patient Data
 - Deep learning models
 - Advanced federated learning
 - Medical image analysis
+
+   ##  Live Deployment
+  
+ **Project Live Link:**  
+https://trustworthy-ai-healthcare-b7j4.vercel.app
+
+ Built using Flask + AI/ML (Bayesian Prediction Model)  
+ Hosted on Vercel for real-time access
+
